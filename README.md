@@ -12,4 +12,5 @@ FAKULTAS VOKASI
 UNIVERSITAS NEGERI SURABAYA
 2024
 
-Berikut source code dan tampilan hasil dokumentasi OpenApi pada project "Simple Student Api"
+Berikut source code dan tampilan hasil dokumentasi OpenApi pada project "Simple Stude![awalmenu](https://github.com/vittokris/tugas_1_api_kelompok6/assets/125800929/45402173-a452-4300-b62f-50a261b88719)
+nt Api"
