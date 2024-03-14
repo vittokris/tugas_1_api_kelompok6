@@ -1,0 +1,132 @@
+openapi: "3.0.0"
+info:
+  title: "Simple Student API"
+  description: "API untuk mengelola data mahasiswa"
+  version: "1.0.0"
+servers:
+  - url: "http://localhost"
+paths:
+  /create.php:
+    post:
+      summary: "Membuat data mahasiswa baru"
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                Nama:
+                  type: string
+      responses:
+        '200':
+          description: "Data mahasiswa berhasil dibuat"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '400':
+          description: "Gagal membuat data mahasiswa"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /data.php:
+    get:
+      summary: "Mendapatkan daftar data mahasiswa"
+      responses:
+        '200':
+          description: "Daftar data mahasiswa berhasil didapatkan"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data_mhs:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        Nama:
+                          type: string
+        '400':
+          description: "Gagal mendapatkan daftar data mahasiswa"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /update.php:
+    put:
+      summary: "Mengupdate data mahasiswa"
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                Nama:
+                  type: string
+      responses:
+        '200':
+          description: "Data mahasiswa berhasil diupdate"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '400':
+          description: "Gagal mengupdate data mahasiswa"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /delete.php:
+    delete:
+      summary: "Menghapus data mahasiswa"
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+      responses:
+        '200':
+          description: "Data mahasiswa berhasil dihapus"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        '400':
+          description: "Gagal menghapus data mahasiswa"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
