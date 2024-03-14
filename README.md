@@ -35,7 +35,7 @@ Berikut source code dan tampilan hasil dokumentasi OpenApi pada project "Simple 
 
 
 source code dokumentasi OpenApi menggunakan format json
-![1](https://github.com/vittok![2](https://github.com/vittokris/tugas_1_api_kelompok6/assets/125800929/2509b08f-9a77-42ea-89f5-1f54113f1dcd)
-ris/tugas_1_api_kelompok6/assets/125800929/2fccbe0e-67b1-4eeb-956e-0d1a311c7332)
+![1](https://github.com/vittokris/tugas_1_api_kelompok6/assets/125800929/36410d17-fd13-4f89-aac9-59f5dd444173)
+![2](https://github.com/vittokris/tugas_1_api_kelompok6/assets/125800929/50fe0df6-d287-40d3-b8f0-b0778cac8fc0)
 ![3](https://github.com/vittokris/tugas_1_api_kelompok6/assets/125800929/66a47e1a-0281-472b-a03b-c5193d87ea9a)
 ![4](https://github.com/vittokris/tugas_1_api_kelompok6/assets/125800929/d5726f38-2c06-405f-96aa-ae689ca0a399)
